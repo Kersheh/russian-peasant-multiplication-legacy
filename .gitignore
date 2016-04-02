@@ -3,3 +3,5 @@ a4_w16.pdf
 *.docx
 *.ali
 *.o
+recursive
+iterative

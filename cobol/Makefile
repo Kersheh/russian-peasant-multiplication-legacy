@@ -1,5 +1,8 @@
 CC = cobc
-CFLAGS = -free -O -Wall
+CFLAGS = -free -x -Wall
 
 iterative: iterative.cob
-	$(CC) $(CFLAGS) iterative.cob
+	$(CC) $(CFLAGS) iterative.cob -o iterative
+
+clean:
+	rm iterative

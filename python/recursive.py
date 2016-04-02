@@ -1,6 +1,5 @@
 # Recursive Russian Peasant Multiplication in Python
 # by Matthew Breckon
-from __future__ import division
 import sys
 
 def p(m, n):

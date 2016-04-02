@@ -13,3 +13,11 @@ cobol:
 
 c:
 	$(MAKE) -C c
+
+clean:
+	$(MAKE) -C fortran clean 
+	$(MAKE) -C ada clean 
+	$(MAKE) -C cobol clean 
+	$(MAKE) -C c clean 
+
+.PHONY: fortran ada cobol c

@@ -1,5 +1,5 @@
 ! Iterative Russian Peasant Multiplication in Fortran 95
-
+! by Matthew Breckon
 integer(kind=8) function iter(m, n)
   integer(kind=8) :: m, n
   integer(kind=8) :: p = 0, const = 2

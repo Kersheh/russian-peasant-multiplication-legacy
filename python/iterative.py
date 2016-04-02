@@ -1,4 +1,5 @@
 # Iterative Russian Peasant Multiplication in Python
+# by Matthew Breckon
 from __future__ import division
 import sys
 
@@ -12,6 +13,4 @@ def p(m, n):
     return p
 
 if __name__ == '__main__':
-    m = int(sys.argv[1])
-    n = int(sys.argv[2])
-    print p(m, n)
+    print p(int(sys.argv[1]), int(sys.argv[2]))

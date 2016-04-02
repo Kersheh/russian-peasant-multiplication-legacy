@@ -1,4 +1,5 @@
 // Iterative Russian Peasant Multiplication in C
+// by Matthew Breckon
 #include <stdio.h>
 #include <stdlib.h>
 

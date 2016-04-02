@@ -1,5 +1,5 @@
 ! Recursive Russian Peasant Multiplication in Fortran 95
-
+! by Matthew Breckon
 recursive function rec(m, n) result(p)
   integer, intent(in) :: m, n
   integer(kind=8) :: p

@@ -3,5 +3,6 @@ a4_w16.pdf
 *.docx
 *.ali
 *.o
+*.pyc
 recursive
 iterative

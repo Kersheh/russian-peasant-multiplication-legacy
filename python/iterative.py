@@ -10,6 +10,3 @@ def p(m, n):
         m = m >> 1
         n = n << 1
     return p
-
-if __name__ == '__main__':
-    print p(int(sys.argv[1]), int(sys.argv[2]))

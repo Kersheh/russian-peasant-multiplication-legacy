@@ -8,15 +8,17 @@ procedure Iterative is
   n : long_integer;
   p : long_integer;
 
-  function iter(m, n : in out long_integer) return long_integer is
+  function iter(m, n : long_integer) return long_integer is
+    x : long_integer := m;
+    y : long_integer := n;
   begin
     p := 0;
-    while m > 0 loop
-      if m mod 2 = 1 then
-        p := p + n;
+    while x > 0 loop
+      if x mod 2 = 1 then
+        p := p + y;
       end if;
-      m := m / 2;
-      n := n * 2;
+      x := x / 2;
+      y := y * 2;
     end loop;
     return p;
   end iter;

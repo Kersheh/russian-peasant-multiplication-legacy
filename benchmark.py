@@ -55,10 +55,10 @@ def exec_python(m, n, alg):
     args = str(m) + " " + str(n)
     print "Python results:"
     if alg == "r":
-        r_result = subprocess.check_output("python python" + r + args, shell=True)
+        r_result = subprocess.check_output("python python/recursive.py " + args, shell=True)
         print "     Recursive: p = {0}".format(int(r_result))
     if alg == "i":
-        i_result = subprocess.check_output("python python" + i + args, shell=True)
+        i_result = subprocess.check_output("python python/iterative.py " + args, shell=True)
         print "     Iterative: p = {0}".format(int(i_result))
 
 # benchmark execution times
